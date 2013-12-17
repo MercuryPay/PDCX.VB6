@@ -22,6 +22,6 @@
 *.RTF	 diff=astextplain
 
 # VB6
-*.vbp text
-*.frm text
-*.bas text
+*.vbp eol=crlf
+*.frm eol=crlf
+*.bas eol=crlf
