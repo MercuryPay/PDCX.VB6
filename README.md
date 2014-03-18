@@ -1,7 +1,7 @@
 PDCX.VB6
 ========
 
-[Are you a Developer?](http://www.developer.mercurypay.com)
+[Are you a Developer?](http://developer.mercurypay.com)
 
 PDCX VB6 MercuryPay Integration
 
