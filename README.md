@@ -1,11 +1,9 @@
-PDCX.VB6
+PDCX.VB6 - MercuryPay Integration
 ========
 
 [Are you a Developer?](http://developer.mercurypay.com)
 
-PDCX VB6 MercuryPay Integration
-
-3 step process to integrate to PDCX.
+#3 step process to integrate to PDCX.
 
 ##Step 1: Secure Device Initialization
   
