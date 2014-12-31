@@ -1,7 +1,7 @@
 PDCX.VB6 - MercuryPay Integration
 ========
 
-[Are you a Developer?](http://developer.mercurypay.com)
+Integrate to Mercury using DataCap's PDCX control.
 
 #3 step process to integrate to PDCX.
 
