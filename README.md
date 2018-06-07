@@ -1,11 +1,13 @@
 dsiPDCX.VB6 -- vb6 integration to Datacap's dsiPDCX
 ========
 
+<a href="https://developer.vantiv.com/?utm_campaign=githubcta&utm_medium=hyperlink&utm_source=github&utm_content=gotquestions">Got questions? Connect with our experts on Vantiv ONE.</a>
+
 Integrate to Mercury using Datacap's dsiPDCX control.
 
-#3 step process to integrate to dsiPDCX.
+# 3 step process to integrate to dsiPDCX.
 
-##Step 1: Secure Device Initialization
+## Step 1: Secure Device Initialization
   
 This command should be performed during startup of the POS system with the optional PIN pad attached. 
 It should not be performed prior to every transaction as it takes several seconds to complete with an attached PIN pad.
@@ -28,7 +30,7 @@ Dim response As String
 response = Me.DsiPDCX1.ProcessTransaction(request, 0, "", "")
 ```
   
-##Step 2: Process XML Transaction
+## Step 2: Process XML Transaction
 
 Build XML transactions and process with dsiPDCX object.
 
@@ -72,7 +74,7 @@ Dim response As String
 response = Me.DsiPDCX1.ProcessTransaction(request, 0, "", "")
 ```
 
-##Step 3: Parse the XML Response
+## Step 3: Parse the XML Response
 
 Approved transactions will have a CmdStatus equal to "Approved" or "Success".
 
@@ -94,7 +96,7 @@ Else
 End If
 ```
 
-###©2014-2015 Mercury Payment Systems, LLC - all rights reserved.
+### ©2014-2015 Mercury Payment Systems, LLC - all rights reserved.
 
 Disclaimer:
 This software and all specifications and documentation contained herein or provided to you hereunder (the "Software") are provided free of charge strictly on an "AS IS" basis. No representations or warranties are expressed or implied, including, but not limited to, warranties of suitability, quality, merchantability, or fitness for a particular purpose (irrespective of any course of dealing, custom or usage of trade), and all such warranties are expressly and specifically disclaimed. Mercury Payment Systems shall have no liability or responsibility to you nor any other person or entity with respect to any liability, loss, or damage, including lost profits whether foreseeable or not, or other obligation for any cause whatsoever, caused or alleged to be caused directly or indirectly by the Software. Use of the Software signifies agreement with this disclaimer notice.
